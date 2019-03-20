@@ -21,7 +21,7 @@ public class NewTest {
    
    //System.setProperty("webdriver.gecko.driver", "D:\\SeleniumDrivers\\geckodriver.exe");
    //driver = new FirefoxDriver();
-   System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver");
+   System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver.exe");
    driver = new ChromeDriver();
    //denemef
   }
