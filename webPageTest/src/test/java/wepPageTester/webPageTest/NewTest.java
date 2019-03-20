@@ -1,6 +1,7 @@
 package wepPageTester.webPageTest;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
@@ -18,8 +19,10 @@ public class NewTest {
   @BeforeClass
   public void beforeClass() {
    
-   System.setProperty("webdriver.gecko.driver", "D:\\SeleniumDrivers\\geckodriver.exe");
-   driver = new FirefoxDriver();
+   //System.setProperty("webdriver.gecko.driver", "D:\\SeleniumDrivers\\geckodriver.exe");
+   //driver = new FirefoxDriver();
+   System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver");
+   driver = new ChromeDriver();
    
   }
  
