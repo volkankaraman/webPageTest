@@ -23,7 +23,7 @@ public class NewTest {
    //driver = new FirefoxDriver();
    System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver");
    driver = new ChromeDriver();
-   //deneme
+   //denemef
   }
  
   @AfterClass
