@@ -1,0 +1,7 @@
+<suite name="softwaretestingmaterial">
+ <test name="testngTest">
+ <classes>
+ <class name="webPageTester.webPageTest.NewTest" />
+ </classes>
+ </test>
+</suite>
