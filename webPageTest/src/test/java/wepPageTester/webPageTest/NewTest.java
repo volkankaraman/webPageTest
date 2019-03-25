@@ -24,6 +24,7 @@ public class NewTest {
    System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver.exe");
    driver = new ChromeDriver();
    //denemef
+   //fghdfghfh
   }
  
   @AfterClass
