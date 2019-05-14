@@ -25,6 +25,7 @@ public class NewTest {
    driver = new ChromeDriver();
    //denemef
    //fghdfghfh
+   System.out.println("deneme.sayfa açıldı");
   }
  
   @AfterClass
