@@ -27,6 +27,11 @@
         <artifactId>selenium-server</artifactId>
         <version>3.141.59</version>
     </dependency> 
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.0.1</version>
+    </dependency>
  <!-- TestNG -->
   <dependency>
      <groupId>org.testng</groupId>
@@ -97,7 +102,14 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>openxml4j</artifactId>
 			<version>1.0-beta</version>
-		</dependency>
+		</dependency>	
+	
+<dependency>
+    <groupId>com.sdl.web</groupId>
+    <artifactId>content-client-api</artifactId>
+    <version>8.5.0-1013</version>
+</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 		<dependency>
@@ -111,15 +123,9 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.6</version>
-		</dependency>
-		<dependency>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-jar-plugin</artifactId>
-  <version>3.1.1</version>
-  <type>maven-plugin</type>
-</dependency>
-        </dependencies>
-        <build>
+		</dependency>		
+      </dependencies>
+      <build>
          <pluginManagement>
             <plugins>
                 <plugin>
@@ -139,10 +145,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>     
-        </build>
-  
-       
-       
-       	
+        </build>    	
 
 </project>
