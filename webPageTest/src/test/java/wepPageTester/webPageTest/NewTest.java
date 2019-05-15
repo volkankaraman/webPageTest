@@ -39,6 +39,7 @@ public class TestChromeBrowser {
 		if(driver!=null) {
 			System.out.println("Closing chrome browser");
 			driver.quit();
+			///15 mayıs
 		}
 	}
 	
