@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="wepPageTester.webPageTest.NewTest$TestChromeBrowser">
+      <class name="com.tr.testFiles.ShoppingTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testGooglePageTitleInIEBrowser"/>
+          <include name="AddItem"/>
+          <include name="setup"/>
+          <include name="Login"/>
+          <include name="CheckCart"/>
         </methods>
-      </class> <!-- wepPageTester.webPageTest.NewTest$TestChromeBrowser -->
+      </class> <!-- com.tr.testFiles.ShoppingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
