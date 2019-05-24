@@ -30,7 +30,7 @@ public class LoginTest extends FunctionalTest {
 		Assert.assertTrue(lp.SignIn().isDisplayed());
 		//System.out.println(driver.getPageSource());
 		lp.SignIn().click();
-		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(8,TimeUnit.SECONDS);
 		Assert.assertTrue(lp.Username().isDisplayed());
 		lp.Username().sendKeys("volkankaraman019@gmail.com");
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);

@@ -6,13 +6,13 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends PageObject {
 	
+	//*[@id="nav-link-yourAccount"]
 	
-	
-	@FindBy(xpath="/html/body/div[1]/header/div/div[2]/div[2]/div/a[1]/span[1]")
+	@FindBy(xpath="//*[@id='nav-link-yourAccount']")
 	WebElement Account;
 	
-	//@FindBy(className="nav-action-inner")
-	@FindBy(xpath ="/html/body/div[1]/header/div/div[1]/div[4]/div[5]/div[1]/a/span")
+	@FindBy(className="nav-action-button")
+	//@FindBy(xpath ="/html/body/div[1]/header/div/div[1]/div[4]/div[5]/div[1]/a/span")
 	public
 	WebElement SignIn;
 	

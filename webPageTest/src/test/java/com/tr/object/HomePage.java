@@ -12,16 +12,20 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends PageObject {
 
+
 	@FindBy(id="twotabsearchtextbox")
 	WebElement SearchBox;
 	
-	@FindBy(xpath="/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input")
+	@FindBy(className ="nav-input")
 	WebElement Search;
 	
-	@FindBy(linkText="Women")
+	//burada kaldım..saati tıklatıp sepete ekleyeceğim
+	
+	//*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div[2]/div[1]
+	@FindBy(xpath="//*[@id='search']/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div[2]/div[1]")
 	WebElement Filter1;
 	
-	@FindBy(id="sort")
+	@FindBy(id="soldByThirdPartyRelocate_feature_div")
 	WebElement SortBy;
 	
 	

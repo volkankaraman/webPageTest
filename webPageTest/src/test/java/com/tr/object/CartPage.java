@@ -11,17 +11,28 @@ public class CartPage extends PageObject {
 		super(driver);
 		
 	}
+	
+	@FindBy(id ="nav-cart-count")
+	WebElement UrunAdet;
+	
+	
+	@FindBy(id="hlb-ptc-btn-native")
+	WebElement SatinAl;
 
-	By CartElement =By.xpath("(//h1[contains(.,'Added to Cart')])[1]");
 	
 	
-	public WebElement CartElement()
+	
+	public WebElement SatinAl()
 	{	
 		
-		return driver.findElement(CartElement);
+		return SatinAl;
 	}
 	
-	
+	public WebElement UrunAdet()
+	{	
+		
+		return UrunAdet;
+	}
 	
 	
 
