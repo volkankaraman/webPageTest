@@ -92,12 +92,12 @@ public class ShoppingTest extends FunctionalTest {
 		}
 		
 	}
-//	@AfterTest
-//	public void Cikis(){
-//		
-//		driver.quit();
-//		
-//	}
+	@AfterTest
+	public void Cikis(){
+		
+		driver.quit();
+		
+	}
 	
 	
 	

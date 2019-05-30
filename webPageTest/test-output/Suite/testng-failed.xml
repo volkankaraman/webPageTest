@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.tr.testFiles.ShoppingTest">
+      <class name="com.tr.testFiles.BreakLinkTest">
         <methods>
-          <include name="AddItem"/>
           <include name="setup"/>
+          <include name="linkDurum"/>
           <include name="Login"/>
-          <include name="CheckCart"/>
         </methods>
-      </class> <!-- com.tr.testFiles.ShoppingTest -->
+      </class> <!-- com.tr.testFiles.BreakLinkTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

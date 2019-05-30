@@ -8,11 +8,17 @@ public class LoginPage extends PageObject {
 	
 	//*[@id="nav-link-yourAccount"]
 	
-	@FindBy(xpath="//*[@id='nav-link-yourAccount']")
+	@FindBy(id="nav-link-accountList")
+	//@FindBy(xpath="//*[@id=/"nav-link-accountList"/]/span[1]")
+	//*[@id="nav-link-accountList"]
+	//*[@id="nav-flyout-ya-signin"]/a/span
+	//document.querySelector("#nav-flyout-ya-signin > a > span")
 	WebElement Account;
 	
-	@FindBy(className="nav-action-button")
-	//@FindBy(xpath ="/html/body/div[1]/header/div/div[1]/div[4]/div[5]/div[1]/a/span")
+	//@FindBy(className="nav-action-button")
+	
+	//@FindBy(id="nav-link-yourAccount")
+	@FindBy(id="nav-link-accountList")
 	public
 	WebElement SignIn;
 	

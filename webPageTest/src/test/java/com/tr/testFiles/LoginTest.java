@@ -7,6 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import com.tr.object.LoginPage;
@@ -43,5 +44,10 @@ public class LoginTest extends FunctionalTest {
 		
 	}
 	
-
+	@AfterTest
+	public void Cikis(){
+		
+		driver.quit();
+		
+	}
 }

@@ -3,8 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>        
-      <class name="com.tr.object"/>
-      <class name="com.tr.testFiles"/>
+      <class name="com.tr.testFiles.FunctionalTest"/>
+      <class name="com.tr.testFiles.LoginTest"/>
+      <class name="com.tr.testFiles.ShoppingTest"/>
+      <class name="com.tr.testFiles.BreakLinkTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
